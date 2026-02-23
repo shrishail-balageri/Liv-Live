@@ -8,3 +8,5 @@ Building an live video streaming application1
 #install FFmpeg
    convert rtmp module ->HLS
 
+#plan 
+we deploy nignix server locally and then deploy it on cloud virtual machine for scaling and horizontally scale with load balancers when traffic grows
