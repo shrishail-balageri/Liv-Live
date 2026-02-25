@@ -1,0 +1,178 @@
+2026/02/23 23:05:24 [notice] 6664#368: using the "select" event method
+2026/02/23 23:05:24 [notice] 6664#368: nginx/1.14.1
+2026/02/23 23:05:24 [info] 6664#368: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/23 23:05:24 [notice] 6664#368: start worker processes
+2026/02/23 23:05:24 [notice] 6664#368: start worker process 21668
+2026/02/23 23:05:24 [notice] 21668#25776: nginx/1.14.1
+2026/02/23 23:05:24 [info] 21668#25776: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/23 23:05:24 [notice] 21668#25776: create thread 23680
+2026/02/23 23:05:24 [notice] 21668#25776: create thread 4088
+2026/02/23 23:05:24 [notice] 21668#25776: create thread 15016
+2026/02/23 23:23:22 [notice] 25976#25356: using the "select" event method
+2026/02/23 23:23:22 [notice] 25976#25356: nginx/1.14.1
+2026/02/23 23:23:22 [info] 25976#25356: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/23 23:23:22 [notice] 25976#25356: start worker processes
+2026/02/23 23:23:22 [notice] 25976#25356: start worker process 25192
+2026/02/23 23:23:22 [notice] 25192#7772: nginx/1.14.1
+2026/02/23 23:23:22 [info] 25192#7772: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/23 23:23:22 [notice] 25192#7772: create thread 25464
+2026/02/23 23:23:22 [notice] 25192#7772: create thread 2324
+2026/02/23 23:23:22 [notice] 25192#7772: create thread 6220
+2026/02/23 23:29:53 [notice] 22364#26544: signal process started
+2026/02/23 23:29:53 [notice] 25976#25356: exiting
+2026/02/23 23:29:53 [notice] 25192#7772: gracefully shutting down
+2026/02/23 23:29:53 [notice] 25192#2324: exiting
+2026/02/23 23:29:53 [notice] 25192#25464: exiting
+2026/02/23 23:29:53 [notice] 25192#7772: exit
+2026/02/23 23:29:53 [notice] 25976#25356: worker process 25192 exited with code 0
+2026/02/23 23:29:53 [notice] 25976#25356: exit
+2026/02/23 23:30:10 [notice] 24480#14952: signal process started
+2026/02/23 23:30:10 [error] 24480#14952: CreateFile() "D:\nginx-rtmp-win32-dev\nginx-rtmp-win32-dev/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2026/02/24 07:56:15 [notice] 24908#25852: using the "select" event method
+2026/02/24 07:56:15 [notice] 24908#25852: nginx/1.14.1
+2026/02/24 07:56:15 [info] 24908#25852: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/24 07:56:15 [notice] 24908#25852: start worker processes
+2026/02/24 07:56:15 [notice] 24908#25852: start worker process 14104
+2026/02/24 07:56:15 [notice] 14104#23072: nginx/1.14.1
+2026/02/24 07:56:15 [info] 14104#23072: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/24 07:56:15 [notice] 14104#23072: create thread 25264
+2026/02/24 07:56:15 [notice] 14104#23072: create thread 11120
+2026/02/24 07:56:15 [notice] 14104#23072: create thread 18592
+2026/02/24 07:56:25 [info] 14104#25264: *1 client connected '127.0.0.1'
+2026/02/24 07:56:25 [info] 14104#25264: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 07:56:25 [info] 14104#25264: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 07:56:25 [info] 14104#25264: *1 publish: name='demo' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 08:00:40 [info] 14104#25264: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 08:00:40 [info] 14104#25264: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 08:00:40 [info] 14104#25264: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 08:00:40 [info] 14104#25264: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 08:00:43 [info] 14104#25264: *2 client connected '127.0.0.1'
+2026/02/24 08:00:43 [info] 14104#25264: *2 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 08:00:43 [info] 14104#25264: *2 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 08:00:43 [info] 14104#25264: *2 publish: name='demo' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 08:00:52 [info] 14104#25264: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 08:00:52 [info] 14104#25264: *2 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 08:00:52 [info] 14104#25264: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 08:00:52 [info] 14104#25264: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 15:12:24 [notice] 14736#11452: using the "select" event method
+2026/02/24 15:12:24 [notice] 14736#11452: nginx/1.14.1
+2026/02/24 15:12:24 [info] 14736#11452: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/24 15:12:24 [notice] 14736#11452: start worker processes
+2026/02/24 15:12:24 [notice] 14736#11452: start worker process 22516
+2026/02/24 15:12:24 [notice] 22516#22312: nginx/1.14.1
+2026/02/24 15:12:24 [info] 22516#22312: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/24 15:12:24 [notice] 22516#22312: create thread 26344
+2026/02/24 15:12:24 [notice] 22516#22312: create thread 20980
+2026/02/24 15:12:24 [notice] 22516#22312: create thread 4812
+2026/02/24 16:25:39 [notice] 11860#21864: using the "select" event method
+2026/02/24 16:25:39 [notice] 11860#21864: nginx/1.14.1
+2026/02/24 16:25:39 [info] 11860#21864: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/24 16:25:39 [notice] 11860#21864: start worker processes
+2026/02/24 16:25:39 [notice] 11860#21864: start worker process 9964
+2026/02/24 16:25:39 [notice] 9964#1668: nginx/1.14.1
+2026/02/24 16:25:39 [info] 9964#1668: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/24 16:25:39 [notice] 9964#1668: create thread 14124
+2026/02/24 16:25:39 [notice] 9964#1668: create thread 15288
+2026/02/24 16:25:39 [notice] 9964#1668: create thread 11064
+2026/02/24 16:27:10 [info] 22516#26344: *1 client connected '127.0.0.1'
+2026/02/24 16:27:10 [info] 22516#26344: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:27:10 [info] 22516#26344: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:27:10 [info] 22516#26344: *1 publish: name='demo' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:28:35 [info] 22516#26344: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:28:35 [info] 22516#26344: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:28:35 [info] 22516#26344: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:28:35 [info] 22516#26344: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:28:48 [info] 22516#26344: *2 client connected '127.0.0.1'
+2026/02/24 16:28:48 [info] 22516#26344: *2 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:28:48 [info] 22516#26344: *2 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:28:48 [info] 22516#26344: *2 publish: name='demo' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:29:08 [info] 22516#26344: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:29:08 [info] 22516#26344: *2 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:29:08 [info] 22516#26344: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:29:08 [info] 22516#26344: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:30:44 [info] 22516#26344: *3 client connected '127.0.0.1'
+2026/02/24 16:30:44 [info] 22516#26344: *3 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:30:44 [info] 22516#26344: *3 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:30:44 [info] 22516#26344: *3 publish: name='demo' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:31:00 [info] 22516#26344: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:31:00 [info] 22516#26344: *3 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:31:00 [info] 22516#26344: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/24 16:31:00 [info] 22516#26344: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:02:33 [notice] 24324#10944: using the "select" event method
+2026/02/25 08:02:33 [notice] 24324#10944: nginx/1.14.1
+2026/02/25 08:02:33 [info] 24324#10944: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/25 08:02:33 [notice] 24324#10944: start worker processes
+2026/02/25 08:02:33 [notice] 24324#10944: start worker process 11944
+2026/02/25 08:02:33 [notice] 11944#16836: nginx/1.14.1
+2026/02/25 08:02:33 [info] 11944#16836: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/25 08:02:33 [notice] 11944#16836: create thread 10820
+2026/02/25 08:02:33 [notice] 11944#16836: create thread 16712
+2026/02/25 08:02:33 [notice] 11944#16836: create thread 10420
+2026/02/25 08:04:44 [notice] 8900#9940: signal process started
+2026/02/25 08:04:44 [notice] 24324#10944: exiting
+2026/02/25 08:04:44 [notice] 11944#16836: gracefully shutting down
+2026/02/25 08:04:44 [notice] 11944#16712: exiting
+2026/02/25 08:04:44 [notice] 11944#10820: exiting
+2026/02/25 08:04:44 [notice] 11944#16836: exit
+2026/02/25 08:04:44 [notice] 24324#10944: worker process 11944 exited with code 0
+2026/02/25 08:04:44 [notice] 24324#10944: exit
+2026/02/25 08:04:53 [notice] 11140#25964: using the "select" event method
+2026/02/25 08:04:53 [notice] 11140#25964: nginx/1.14.1
+2026/02/25 08:04:53 [info] 11140#25964: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/25 08:04:53 [notice] 11140#25964: start worker processes
+2026/02/25 08:04:53 [notice] 11140#25964: start worker process 8752
+2026/02/25 08:04:53 [notice] 8752#13116: nginx/1.14.1
+2026/02/25 08:04:53 [info] 8752#13116: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/25 08:04:53 [notice] 8752#13116: create thread 26152
+2026/02/25 08:04:53 [notice] 8752#13116: create thread 10020
+2026/02/25 08:04:53 [notice] 8752#13116: create thread 8768
+2026/02/25 08:05:08 [info] 8752#26152: *1 client connected '127.0.0.1'
+2026/02/25 08:05:08 [info] 8752#26152: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:05:08 [info] 8752#26152: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:05:08 [info] 8752#26152: *1 publish: name='demo' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:05:18 [info] 8752#26152: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:05:18 [info] 8752#26152: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:05:18 [info] 8752#26152: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:05:18 [info] 8752#26152: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:45:24 [notice] 12128#12848: signal process started
+2026/02/25 08:45:24 [notice] 11140#25964: exiting
+2026/02/25 08:45:24 [notice] 8752#13116: gracefully shutting down
+2026/02/25 08:45:24 [notice] 8752#10020: exiting
+2026/02/25 08:45:24 [notice] 8752#26152: exiting
+2026/02/25 08:45:24 [notice] 8752#13116: exit
+2026/02/25 08:45:24 [notice] 11140#25964: worker process 8752 exited with code 0
+2026/02/25 08:45:24 [notice] 11140#25964: exit
+2026/02/25 08:45:30 [notice] 19832#15272: using the "select" event method
+2026/02/25 08:45:30 [notice] 19832#15272: nginx/1.14.1
+2026/02/25 08:45:30 [info] 19832#15272: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/25 08:45:30 [notice] 19832#15272: start worker processes
+2026/02/25 08:45:30 [notice] 19832#15272: start worker process 3152
+2026/02/25 08:45:30 [notice] 3152#12628: nginx/1.14.1
+2026/02/25 08:45:30 [info] 3152#12628: OS: 260200 build:9200, "", suite:300, type:1
+2026/02/25 08:45:30 [notice] 3152#12628: create thread 3908
+2026/02/25 08:45:30 [notice] 3152#12628: create thread 8680
+2026/02/25 08:45:30 [notice] 3152#12628: create thread 7744
+2026/02/25 08:46:37 [info] 3152#3908: *1 client connected '127.0.0.1'
+2026/02/25 08:46:37 [info] 3152#3908: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:46:37 [info] 3152#3908: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:46:37 [info] 3152#3908: *1 publish: name='demo' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:47:01 [info] 3152#3908: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:47:01 [info] 3152#3908: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:47:01 [info] 3152#3908: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:47:01 [info] 3152#3908: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:47:52 [info] 3152#3908: *2 client connected '127.0.0.1'
+2026/02/25 08:47:52 [info] 3152#3908: *2 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:47:52 [info] 3152#3908: *2 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:47:52 [info] 3152#3908: *2 publish: name='demo' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:48:22 [info] 3152#3908: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:48:22 [info] 3152#3908: *2 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:48:22 [info] 3152#3908: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:48:22 [info] 3152#3908: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:58:07 [info] 3152#3908: *3 client connected '127.0.0.1'
+2026/02/25 08:58:07 [info] 3152#3908: *3 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:58:07 [info] 3152#3908: *3 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:58:07 [info] 3152#3908: *3 publish: name='demo' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:58:27 [info] 3152#3908: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:58:27 [info] 3152#3908: *3 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:58:27 [info] 3152#3908: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2026/02/25 08:58:27 [info] 3152#3908: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
